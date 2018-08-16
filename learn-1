@@ -1,0 +1,17 @@
+
+1.PHP 打印调用函数入口地址（堆栈），方便调式
+
+echo "<pre>"; 
+debug_print_backtrace();
+
+或者
+
+$e = new Exception;
+var_dump($e->getTraceAsString());
+
+
+
+
+
+
+
